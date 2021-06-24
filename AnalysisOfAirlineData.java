@@ -39,8 +39,7 @@ public class AnalysisOfAirlineData {
     private static ArrayList<Flight> loadDataFile() {
         
         ArrayList<Flight> flights = new ArrayList<>();
-        File inputFile = new File("flights.csv");   
-//        File inputFile = new File("flights_small.csv");        
+        File inputFile = new File("flights_small.csv");        
 
         try (Scanner in = new Scanner(inputFile)) {
 
